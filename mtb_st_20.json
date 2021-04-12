@@ -1,0 +1,35 @@
+{
+    "modelId": "8603864",
+        "itemIds": [
+            4144288,
+            4144287,
+            4144286
+        ],
+
+    "stocksRequestPayload": {
+        "itemIds": [
+            4144288,
+            4144287,
+            4144286
+        ],
+        "items": [
+            {
+                "additionalPackagingWeight": 0,
+                "additionalShippingFee": 1199,
+                "ean": "3583787734063",
+                "itemDimension": {
+                    "height": 1,
+                    "length": 1,
+                    "width": 1
+                },
+                "itemId": 4144287,
+                "itemName": "MTB ST 20 Low Frame WHITE 26 inch",
+                "itemPrice": 7499,
+                "itemQty": 1,
+                "itemWeight": 17.21,
+                "type": "product"
+            }
+        ],
+        "postalCode": "600095"
+    }
+}

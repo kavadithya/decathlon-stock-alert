@@ -1,0 +1,28 @@
+{
+    "modelId": "8389398",
+    "itemIds": [ 2242412 ],
+    "stocksRequestPayload": {
+        "itemIds": [
+            2242412
+        ],
+        "items": [
+            {
+                "additionalPackagingWeight": 0,
+                "additionalShippingFee": 1199,
+                "ean": "3583783719590",
+                "itemDimension": {
+                    "height": 1,
+                    "length": 1,
+                    "width": 1
+                },
+                "itemId": 2242412,
+                "itemName": "Hybrid cycle Riverside 120 Grey Yellow.",
+                "itemPrice": 11999,
+                "itemQty": 1,
+                "itemWeight": 15,
+                "type": "product"
+            }
+        ],
+        "postalCode": "600095"
+    }
+}
