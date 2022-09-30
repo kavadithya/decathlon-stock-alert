@@ -7,7 +7,7 @@ import json
 from apscheduler.schedulers.blocking import BlockingScheduler
 import os
 
-DECATHLON_CART_ID = os.getenv('DECATHLON_CART_ID')
+# DECATHLON_CART_ID = os.getenv('DECATHLON_CART_ID')
 DECATHLON_REFRESH_TOKEN = os.getenv('DECATHLON_REFRESH_TOKEN')
 TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
 TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
@@ -57,8 +57,7 @@ def decathlon_add_to_cart(model_id, item_id, access_token):
                 "analytics": {"shoppingToolType":"Perso-Reco","shoppingToolValue":"Category_Products_Page-Our Bestsellers-8603864","shoppingToolSubValue":"NA"}
             }
         ],
-        "token": access_token,
-        "cartId": DECATHLON_CART_ID
+        "token": access_token
     }
 
     url = 'https://www.decathlon.in/api/cart/add'
